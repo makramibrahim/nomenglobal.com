@@ -7,7 +7,7 @@ using System.Web.Http;
 
 namespace NomenWebApi.Controllers
 {
-    [Authorize]
+   // [Authorize]
     public class ValuesController : ApiController
     {
         // GET api/values
@@ -30,6 +30,7 @@ namespace NomenWebApi.Controllers
         // PUT api/values/5
         public void Put(int id, [FromBody]string value)
         {
+
         }
 
         // DELETE api/values/5
